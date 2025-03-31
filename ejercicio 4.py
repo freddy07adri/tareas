@@ -6,11 +6,11 @@ while True:
         continue
     
     if numero == numero[::-1]:
-        print(f"El número {numero} es igual al revés.")
+        print("El número ",numero," es igual al revés.")
     else:
-        print(f"El número {numero} no es igual.")
+        print("El número ",numero, "no es igual.")
     
     repetir = input("¿Quieres probar otro número? (chi/ño): ").strip().lower()
     if repetir == "ño":
-        print(“El acabado.")
+        print("el acabado.")
         break
