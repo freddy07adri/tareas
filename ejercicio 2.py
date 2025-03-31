@@ -1,4 +1,4 @@
- while True:
+while True:
     articulo = input("Ingrese el nombre del artículo: ")
     precio_unitario = float(input("Ingrese el precio unitario del artículo: "))
     cantidad = int(input("Ingrese la cantidad a comprar: "))
@@ -13,13 +13,13 @@
     total = subtotal + iva - descuento
     
     print("\n--- FACTURA ---")
-    print(f"Artículo: {articulo}")
-    print(f"Cantidad: {cantidad}")
-    print(f"Precio unitario:{precio_unitario:.2f} Cordoba")
-    print(f"Subtotal: {subtotal:.2f} Cordoba")
-    print(f"IVA (15%): {iva:.2f} Cordoba")
-    print(f"Descuento (12% si aplica): {descuento:.2f} Cordoba")
-    print(f"Total a pagar: {total:.2f}Cordoba")
+    print("Artículo: ",articulo,)
+    print("Cantidad: ",cantidad,"cordobas")
+    print("Precio unitario: ",precio_unitario, "Cordoba")
+    print("Subtotal: ",subtotal, "Cordoba")
+    print("IVA (15%): ",iva, "Cordoba")
+    print("Descuento (12% si aplica): ",descuento,  "Cordoba")
+    print("Total a pagar: ",total, "Cordoba")
     
     repetir = input("¿Quieres repetir el programa? (chi/ño): ")
     if repetir == "ño":
